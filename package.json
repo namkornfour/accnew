@@ -1,0 +1,23 @@
+{
+  "name": "web-accnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:frontend": "cd web-accounting && npm start",
+    "start:backend": "cd web-backend && npm run serve",
+    "build:frontend": "cd web-accounting && npm run build",
+    "build:backend": "node index",
+    "copy": "cd web-backend && npm run copy",
+    "build": "npm run build:backend && npm run build:frontend && npm run copy",
+    "start:prod": "cd published && npm run start:prod"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.5.1",
+    "ncp": "^2.0.0"
+  }
+}
