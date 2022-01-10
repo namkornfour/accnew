@@ -6,6 +6,6 @@ var des = './published';
 var message = "Good Life";
 
 ncp(src, des, (err) => {
-    if(err) return console.log(err);    
+    if(err) return console.log(err);
     console.log("Completed");
 })

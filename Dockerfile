@@ -6,7 +6,7 @@
 #WORKDIR /usr/src/app/my-app
 #RUN npm install
 
-FROM node:16.13.0-alpine as build
+FROM node:16.13.0-alpine as main-build
 
 # set working directory
 WORKDIR /app
