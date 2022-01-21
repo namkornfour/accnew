@@ -694,11 +694,11 @@ hr {
 
 .footer-other > a {
 	padding-right: 20px;
-	color:blue;
+	color: blue;
 }
 
 .footer-other > a:hover {
-	color:white;
+	color:lightskyblue;
 }
 
 .footer-other:hover {
