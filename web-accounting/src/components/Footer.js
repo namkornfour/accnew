@@ -38,7 +38,7 @@ const Footer = () => {
           <a href="http://line.me/ti/p/~accscan">
             <FontAwesomeIcon icon={["fab", "line"]} size="2x" color="white" /><span className="accs-line">&nbsp;@accscan</span>
           </a>
-        </p>				
+        </p>
       </div>      
 
       <div className="footer-item3">
@@ -46,8 +46,6 @@ const Footer = () => {
           <h5>แผนที่</h5>
         </p>
         <div className="footer-map" id="map" onClick={showInMapClicked}>
-          {/* <Mapacc id="map" /> */}
-          {/* <Googlemap/> */}
 					<img src="../images/accs-map.png" alt="บริษัท แอ็คเค้าท์ติ้ง ซิสเต็ม จำกัด" />
         </div>
       </div>
